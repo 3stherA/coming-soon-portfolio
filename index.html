@@ -2,59 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Esther Adeosun | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600&family=Domine&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html, body {
-      height: 100%;
-      font-family: 'Red Hat Display', sans-serif;
-      background: url('images/darkBground.png') center center / cover no-repeat fixed;
-      color: #fbfbfb;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    .container {
-      background-color: rgba(0, 0, 0, 0.4);
-      border: 2px solid #f7d2f8;
-      border-radius: 12px;
-      padding: 3rem;
-      max-width: 600px;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      color: #f7d2f8;
-    }
-
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-      margin-bottom: 2rem;
-    }
-
-    .note {
-      font-size: 0.95rem;
-      color: #cccccc;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esther Adeosun – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Coming Soon</h1>
-    <p>Hi! I'm Esther, a Software Engineering student passionate about design, code, and human-centered technology. My portfolio is currently under construction, but it’ll be live soon!</p>
-    <p class="note">In the meantime, feel free to reach out: <br/><a href="mailto:3stherade@gmail.com" style="color: #f7d2f8;">3stherade@gmail.com</a></p>
+    <img src="images/headshot1.png" alt="Esther Adeosun" class="headshot" />
+    <h1 class="coming-soon">Hi, I’m Esther 👋🏽</h1>
+    <p class="message">I'm currently building my portfolio. Come back soon to see what I’ve been working on!</p>
+    <div class="clock" id="clock">--:--:--</div>
+    <img src="images/cameraRoll/cruise.jpg" alt="Camera roll" class="camera-preview" id="cameraPreview" />
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
